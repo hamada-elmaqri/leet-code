@@ -15,11 +15,11 @@ class Solution {
         return false;
     }*/
         HashSet<Integer> numbers = new HashSet<>();
-        for (int i = 0; i < nums.length; i++) {
-            if (numbers.contains(nums[i])) {
+        for (int num : nums) {
+            if (numbers.contains(num)) {
                 return true;
             }
-            numbers.add(nums[i]);
+            numbers.add(num);
         }
         return false;
 
