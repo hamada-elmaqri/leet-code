@@ -19,13 +19,10 @@ public class IsPalindromeNumber {
     }
 
     public static void main(String[] args) {
-        String s = "A man, a plan, a canal: Panama";
-        String s2 = "Race a car";
+        String s = "12321";
         IsPalindrome isPalindrome = new IsPalindrome();
         boolean result = isPalindrome.isPalindrome(s);
-        boolean result2 = isPalindrome.isPalindrome(s2);
         System.out.println(result); // true
-        System.out.println(result2); // false
     }
 }
 
