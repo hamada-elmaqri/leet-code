@@ -15,9 +15,10 @@ public class IsPalindrome {
             else if (!Character.isLetterOrDigit(s.charAt(limen))) {
                 limen--;
             } else {
-                // Compare characters and convert to lowercase to handle case sensitivity.
+                // convert to lowercase to handle case sensitivity.
                 char c1 = Character.toLowerCase(s.charAt(liser));
                 char c2 = Character.toLowerCase(s.charAt(limen));
+                //Compare characters
                 if (c1 != c2) {
                     return false;
                 }
