@@ -38,7 +38,6 @@ public class FinalArrayAfterKOps {
 
         int[] result = finalArrayAfterKOps.getFinalState(nums, k, multiplier);
 
-        // Print the final result
         System.out.println("Final array: " + Arrays.toString(result));
     }
 }
